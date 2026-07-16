@@ -1,7 +1,22 @@
 {
   "permissions": {
     "allow": [
-      "Bash(find \"D:/Projects/polaroid_frame\" -maxdepth 3 -not -path '*/\\\\.git*' -not -path '*/build/*' -not -path '*/.gradle/*')"
+      "Bash(find \"D:/Projects/polaroid_frame\" -maxdepth 3 -not -path '*/\\\\.git*' -not -path '*/build/*' -not -path '*/.gradle/*')",
+      "Bash(mkdir -p domain/model domain/repository domain/usecase data/remote/dto data/remote/service data/local/entity data/local/dao data/mapper data/repository presentation core di)",
+      "Bash(touch domain/model/.gitkeep domain/repository/.gitkeep domain/usecase/.gitkeep data/remote/dto/.gitkeep data/remote/service/.gitkeep data/local/entity/.gitkeep data/local/dao/.gitkeep data/mapper/.gitkeep data/repository/.gitkeep presentation/.gitkeep core/.gitkeep di/.gitkeep)",
+      "WebFetch(domain:dl.google.com)",
+      "WebFetch(domain:plugins.gradle.org)",
+      "WebFetch(domain:search.maven.org)",
+      "WebFetch(domain:repo.maven.apache.org)",
+      "WebSearch",
+      "WebFetch(domain:mvnrepository.com)",
+      "WebFetch(domain:firebase.google.com)",
+      "WebFetch(domain:repo1.maven.org)",
+      "WebFetch(domain:central.sonatype.com)",
+      "WebFetch(domain:api.github.com)",
+      "Bash(./gradlew.bat :app:dependencies --configuration debugRuntimeClasspath --console=plain)",
+      "Bash(./gradlew.bat :app:compileDebugKotlin --console=plain)",
+      "Bash(./gradlew.bat :app:assembleDebug --console=plain)"
     ]
   }
 }
