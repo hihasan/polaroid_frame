@@ -18,7 +18,11 @@
       "Bash(./gradlew.bat :app:compileDebugKotlin --console=plain)",
       "Bash(./gradlew.bat :app:assembleDebug --console=plain)",
       "Bash(./gradlew.bat help *)",
-      "Bash(./gradlew.bat assembleDebug --stacktrace)"
+      "Bash(./gradlew.bat assembleDebug --stacktrace)",
+      "WebFetch(domain:developers.google.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(./gradlew.bat compileDebugKotlin --stacktrace)",
+      "Bash(./gradlew.bat compileDebugKotlin)"
     ]
   }
 }
