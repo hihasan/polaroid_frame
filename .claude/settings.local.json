@@ -16,7 +16,9 @@
       "WebFetch(domain:api.github.com)",
       "Bash(./gradlew.bat :app:dependencies --configuration debugRuntimeClasspath --console=plain)",
       "Bash(./gradlew.bat :app:compileDebugKotlin --console=plain)",
-      "Bash(./gradlew.bat :app:assembleDebug --console=plain)"
+      "Bash(./gradlew.bat :app:assembleDebug --console=plain)",
+      "Bash(./gradlew.bat help *)",
+      "Bash(./gradlew.bat assembleDebug --stacktrace)"
     ]
   }
 }
