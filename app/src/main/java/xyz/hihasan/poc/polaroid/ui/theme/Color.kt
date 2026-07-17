@@ -8,7 +8,8 @@ val GreenDark = Color(0xFF5A9216)
 val GreenLight = Color(0xFFDCEDC8)
 
 // App background/surface: always a shade of white, never pure #FFFFFF.
-val OffWhite = Color(0xFFFAF7F2)
+val OffWhite = Color(0xFFF2F0EF)
 val OffWhiteDim = Color(0xFFF1EDE6)
 
 val TextDark = Color(0xFF1B1B18)
+val White = Color(0xFFFFFFFF)
