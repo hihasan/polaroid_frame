@@ -22,7 +22,17 @@
       "WebFetch(domain:developers.google.com)",
       "WebFetch(domain:raw.githubusercontent.com)",
       "Bash(./gradlew.bat compileDebugKotlin --stacktrace)",
-      "Bash(./gradlew.bat compileDebugKotlin)"
+      "Bash(./gradlew.bat compileDebugKotlin)",
+      "Bash(./gradlew.bat compileDebugKotlin --console=plain)",
+      "Bash(git mv *)",
+      "Bash(git rm *)",
+      "Bash(git add *)",
+      "Bash(mkdir -p /c/Users/hihas/AppData/Local/Temp/claude/D--Projects-polaroid-frame/2809a1a0-cf5f-479c-ae6f-a6d2c1a2d1b2/scratchpad/nav3/runtime-samples /c/Users/hihas/AppData/Local/Temp/claude/D--Projects-polaroid-frame/2809a1a0-cf5f-479c-ae6f-a6d2c1a2d1b2/scratchpad/nav3/ui-samples /c/Users/hihas/AppData/Local/Temp/claude/D--Projects-polaroid-frame/2809a1a0-cf5f-479c-ae6f-a6d2c1a2d1b2/scratchpad/nav3/runtime-src /c/Users/hihas/AppData/Local/Temp/claude/D--Projects-polaroid-frame/2809a1a0-cf5f-479c-ae6f-a6d2c1a2d1b2/scratchpad/nav3/ui-src)",
+      "Bash(unzip -oq /c/Users/hihas/.gradle/caches/modules-2/files-2.1/androidx.navigation3/navigation3-runtime-android/1.1.4/c26765a5e058d5a9f35d1f0ed971656fb7ef2099/navigation3-runtime-1.1.4-samples-sources.jar -d /c/Users/hihas/AppData/Local/Temp/claude/D--Projects-polaroid-frame/2809a1a0-cf5f-479c-ae6f-a6d2c1a2d1b2/scratchpad/nav3/runtime-samples)",
+      "Bash(unzip -oq /c/Users/hihas/.gradle/caches/modules-2/files-2.1/androidx.navigation3/navigation3-ui-android/1.1.4/5269010bcdfe6e9b48d49656e387da0548011a3f/navigation3-ui-1.1.4-samples-sources.jar -d /c/Users/hihas/AppData/Local/Temp/claude/D--Projects-polaroid-frame/2809a1a0-cf5f-479c-ae6f-a6d2c1a2d1b2/scratchpad/nav3/ui-samples)",
+      "Bash(unzip -oq /c/Users/hihas/.gradle/caches/modules-2/files-2.1/androidx.navigation3/navigation3-runtime-android/1.1.4/d0ffbce6ecd24a0f99a5f979dd6339264ce6a8e5/navigation3-runtime-android-1.1.4-sources.jar -d /c/Users/hihas/AppData/Local/Temp/claude/D--Projects-polaroid-frame/2809a1a0-cf5f-479c-ae6f-a6d2c1a2d1b2/scratchpad/nav3/runtime-src)",
+      "Bash(unzip -oq /c/Users/hihas/.gradle/caches/modules-2/files-2.1/androidx.navigation3/navigation3-ui-android/1.1.4/9a9ed2e91335555551b4368a940e6ff1e660fc34/navigation3-ui-android-1.1.4-sources.jar -d /c/Users/hihas/AppData/Local/Temp/claude/D--Projects-polaroid-frame/2809a1a0-cf5f-479c-ae6f-a6d2c1a2d1b2/scratchpad/nav3/ui-src)",
+      "Bash(./gradlew.bat compileDebugKotlin -q)"
     ]
   }
 }

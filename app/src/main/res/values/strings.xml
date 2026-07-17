@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">polaroid_frame</string>
+    <string name="app_name">Polaroid</string>
+    <string name="add_photo">Add photo</string>
+    <string name="editor_back">Back</string>
 </resources>
