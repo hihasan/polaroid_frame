@@ -16,6 +16,7 @@ import androidx.navigation3.ui.LocalNavAnimatedContentScope
 import xyz.hihasan.poc.polaroid.R
 import xyz.hihasan.poc.polaroid.core.LocalSharedTransitionScope
 import xyz.hihasan.poc.polaroid.presentation.navigation.AppNameSharedKey
+import xyz.hihasan.poc.polaroid.presentation.permission.MediaPermissionEffect
 import xyz.hihasan.poc.polaroid.ui.theme.Green
 import xyz.hihasan.poc.polaroid.ui.theme.PolaroidTheme
 
@@ -23,6 +24,9 @@ import xyz.hihasan.poc.polaroid.ui.theme.PolaroidTheme
 @Composable
 fun SplashScreen(modifier: Modifier = Modifier) {
     val sharedTransitionScope = LocalSharedTransitionScope.current
+
+    MediaPermissionEffect()
+
     Box(
         modifier = modifier
             .fillMaxSize()
